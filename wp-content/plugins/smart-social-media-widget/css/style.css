@@ -1,0 +1,402 @@
+/******************************************
+* Stylesheet for Smart Social Media Widget,
+* by www.tchernitchenko.com
+******************************************/
+
+/******************************************
+* General
+******************************************/
+
+.ssmw-info {
+  color: #aaa;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.ssmw-hidden {
+  display: none;
+}
+
+/******************************************
+* Simple Style
+******************************************/
+
+.smart-social-media-widget {
+	overflow: auto;
+}
+
+a.ssmw-button {
+	text-decoration: none;
+	border: 0;
+}
+
+a.ssmw-button:hover,
+a.ssmw-button:focus,
+a.ssmw-button:active {
+	text-decoration: none;
+	border: 0;
+	cursor: pointer;
+}
+
+.ssmw-color-white {
+	color: #fff !important;
+}
+
+.ssmw-color-black {
+	color: #000 !important;
+}
+
+a.ssmw-button {
+	margin: 0;
+	background-color: transparent;
+  border: 0;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  content: "";
+  font-family: 'FontAwesome' !important;
+  height: 25px;
+  padding: 0;
+  text-transform: lowercase;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.ssmw-button-container {
+	display: inline-block;
+	float: left;
+	margin-top: 0;
+}
+
+.ssmw-first-row {
+	overflow: auto;
+	margin-bottom: 12px !important;
+}
+
+p.ssmw-left,
+p.ssmw-left a {
+	text-align: left;
+}
+
+p.ssmw-center,
+p.ssmw-center a {
+	text-align: center;
+}
+
+p.ssmw-right,
+p.ssmw-right a {
+	text-align: right;
+}
+
+.ssmw-button.ssmw-fade {
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+
+/*.ssmw-button:after {
+    left: 1px;
+    line-height: 20px;
+    position: relative;
+    top: 0;
+    width: 52px;
+}
+*/
+
+/******************************************
+* Boxed Style
+******************************************/
+
+.ssmw-boxed {
+
+  float: left;
+  text-align: center;
+  font-family: 'FontAwesome' !important;
+  color: #fff !important;
+  background: #000;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+
+}
+
+.ssmw-boxed.ssmw-fade {
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-property: background;
+  transition-property: background;
+}
+
+.ssmw-boxed:hover,
+.ssmw-boxed:focus,
+.ssmw-boxed:active {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.ssmw-boxed p {
+  margin: 0 !important;
+  line-height: 1 !important;  
+}
+
+.ssmw-icon-16px:after { font-size: 16px; }
+.ssmw-icon-18px:after { font-size: 18px; }
+.ssmw-icon-20px:after { font-size: 20px; }
+.ssmw-icon-22px:after { font-size: 22px; }
+.ssmw-icon-24px:after { font-size: 24px; }
+.ssmw-icon-26px:after { font-size: 26px; }
+.ssmw-icon-28px:after { font-size: 28px; }
+
+.ssmw-boxed.ssmw-icon-16px {
+  width: 30px;
+  height: 30px;
+  margin: 0 3px 3px 0;
+}
+
+.ssmw-boxed.ssmw-icon-18px {
+  width: 34px;
+  height: 34px;
+  margin: 0 3px 3px 0;
+}
+
+.ssmw-boxed.ssmw-icon-20px {
+  width: 36px;
+  height: 36px;
+    margin: 0 3px 3px 0;
+}
+
+.ssmw-boxed.ssmw-icon-22px {
+  width: 38px;
+  height: 38px;
+    margin: 0 3px 3px 0;
+}
+
+.ssmw-boxed.ssmw-icon-24px {
+  width: 40px;
+  height: 40px;
+    margin: 0 3px 3px 0;
+}
+.ssmw-boxed.ssmw-icon-26px {
+  width: 44px;
+  height: 44px;
+    margin: 0 3px 3px 0;
+}
+
+.ssmw-boxed.ssmw-icon-28px {
+  width: 48px;
+  height: 48px;
+  margin: 0 3px 3px 0;
+}
+
+/******************************************
+* Form
+******************************************/
+.ssmw-dropdown-toggle.ssmw-closed::after {
+  content: "\f140";
+  font: 400 20px/1 dashicons;
+}
+
+.ssmw-dropdown-toggle.ssmw-opened::after {
+  content: "\f142";
+  font: 400 20px/1 dashicons;
+}
+
+.ssmw-dropdown-button {
+  display: block;
+  border-bottom: 2px solid #dfdfdf;
+  padding: 15px 0px;
+  cursor: pointer;
+/*  margin-bottom: 20px;*/
+}
+
+.ssmw-dropdown-title {
+  display: inline-block;
+  margin: 0;
+  padding-left: 3px;
+}
+
+.ssmw-dropdown-container {
+  display: none;
+}
+
+.ssmw-dropdown-toggle {
+  display: inline-block;
+  float: right;
+  font-size: 1.8em;
+  padding-right: 3px;
+}
+
+.ssmw-links-container {
+  margin-bottom: 15px;
+}
+
+.ssmw-input {
+  padding: 8px;
+}
+
+label.ssmw-radio-label {
+  color: #999;
+  font-weight: 500 !important;
+}
+
+.ssmw-form-container label,
+.ssmw-style-label {
+  font-weight: 700;
+}
+
+.ssmw-style-label {
+  margin-bottom: -1em;
+}
+
+
+/******************************************
+* Icons
+******************************************/
+.ssmw-facebook:after { content: "\f09a"; /*padding-right: 8px;*/ /* Easier to click */ }
+.ssmw-twitter:after { content: "\f099"; }
+.ssmw-youtube:after { content: "\f16a"; }
+.ssmw-instagram:after { content: "\f16d"; }
+.ssmw-google_plus:after { content: "\f1a0"; }
+.ssmw-vimeo:after { content: "\f27d"; }
+.ssmw-pinterest:after { content: "\f0d2"; }
+.ssmw-linkedin:after { content: "\f0e1"; }
+.ssmw-flickr:after { content: "\f16e"; }
+.ssmw-weibo:after { content: "\f18a"; }
+.ssmw-vkontakte:after { content: "\f189"; }
+.ssmw-github:after { content: "\f09b"; }
+.ssmw-behance:after { content: "\f1b4"; }
+.ssmw-dribbble:after { content: "\f17d"; }
+.ssmw-tumblr:after { content: "\f173"; }
+.ssmw-vine:after { content: "\f1ca"; /*padding-right: 6px;*/ }
+.ssmw-twitch:after { content: "\f1e8"; }
+.ssmw-spotify:after { content: "\f1bc"; }
+.ssmw-medium:after { content: "\f23a"; }
+.ssmw-stack_overflow:after { content: "\f16c"; }
+
+.ssmw-soundcloud:after { content: "\f1be"; }
+.ssmw-500px:after { content: "\f26e"; }
+.ssmw-deviantart:after { content: "\f1bd"; }
+.ssmw-paypal:after { content: "\f1ed"; }
+.ssmw-reddit:after { content: "\f1a1"; }
+.ssmw-skype:after { content: "\f17e"; }
+.ssmw-snapchat:after { content: "\f2ac"; }
+.ssmw-stack_exchange:after { content: "\f18d"; }
+.ssmw-xing:after { content: "\f168"; }
+.ssmw-codepen:after { content: "\f1cb"; }
+.ssmw-foursquare:after { content: "\f180"; }
+.ssmw-jsfiddle:after { content: "\f1cc"; }
+.ssmw-odnoklassniki:after { content: "\f263"; }
+.ssmw-tripadvisor:after { content: "\f262"; }
+.ssmw-viadeo:after { content: "\f2a9"; }
+.ssmw-amazon:after { content: "\f270"; }
+.ssmw-steam:after { content: "\f1b6"; }
+.ssmw-whatsapp:after { content: "\f232"; }
+.ssmw-gitlab:after { content: "\f296"; }
+.ssmw-yelp:after { content: "\f1e9"; }
+
+
+.ssmw-simple .ssmw-facebook:hover { color: #3b5998 !important; }
+.ssmw-simple .ssmw-twitter:hover { color: #55acee !important; }
+.ssmw-simple .ssmw-youtube:hover { color: #cd201f !important; }
+.ssmw-simple .ssmw-instagram:hover { color: #405de6 !important; }
+.ssmw-simple .ssmw-google_plus:hover { color: #dc4e41 !important; }
+.ssmw-simple .ssmw-vimeo:hover { color: #1ab7ea !important; }
+.ssmw-simple .ssmw-pinterest:hover { color: #bd081c !important; }
+.ssmw-simple .ssmw-linkedin:hover { color: #0077b5 !important; }
+.ssmw-simple .ssmw-flickr:hover { color: #0063dc !important; }
+.ssmw-simple .ssmw-weibo:hover { color: #DF2029 !important; }
+.ssmw-simple .ssmw-vkontakte:hover { color: #45668e !important; }
+.ssmw-simple .ssmw-github:hover { color: #4183c4 !important; }
+.ssmw-simple .ssmw-behance:hover { color: #1769ff !important; }
+.ssmw-simple .ssmw-dribbble:hover { color: #ea4c89 !important; }
+.ssmw-simple .ssmw-tumblr:hover { color: #35465c !important; }
+.ssmw-simple .ssmw-vine:hover { color: #00b488 !important; }
+.ssmw-simple .ssmw-twitch:hover { color: #6441a5 !important; }
+.ssmw-simple .ssmw-spotify:hover { color: #2ebd59 !important; }
+.ssmw-simple .ssmw-medium:hover { color: #00ab6b !important; }
+.ssmw-simple .ssmw-stack_overflow:hover { color: #fe7a15 !important; }
+.ssmw-simple .ssmw-soundcloud:hover { color: #ff8800 !important; }
+.ssmw-simple .ssmw-500px:hover { color: #0099e5 !important; }
+.ssmw-simple .ssmw-deviantart:hover { color: #05cc47 !important; }
+.ssmw-simple .ssmw-paypal:hover { color: #003087 !important; }
+.ssmw-simple .ssmw-reddit:hover { color: #ff4500 !important; }
+.ssmw-simple .ssmw-skype:hover { color: #00aff0 !important; }
+.ssmw-simple .ssmw-snapchat:hover { color: #fffc00 !important; }
+.ssmw-simple .ssmw-stack_exchange:hover { color: #2f96e8 !important; }
+.ssmw-simple .ssmw-xing:hover { color: #026466 !important; }
+.ssmw-simple .ssmw-codepen:hover { color: #777 !important; }
+.ssmw-simple .ssmw-foursquare:hover { color: #f94877 !important; }
+.ssmw-simple .ssmw-jsfiddle:hover { color: #1f91f3 !important; }
+.ssmw-simple .ssmw-odnoklassniki:hover { color: #ed812b !important; }
+.ssmw-simple .ssmw-tripadvisor:hover { color: #589442 !important; }
+.ssmw-simple .ssmw-viadeo:hover { color: #f07355 !important; }
+.ssmw-simple .ssmw-amazon:hover { color: #ff9900 !important; }
+.ssmw-simple .ssmw-steam:hover { color: #777 !important; }
+.ssmw-simple .ssmw-whatsapp:hover { color: #43d854 !important; }
+.ssmw-simple .ssmw-gitlab:hover { color: #fca326 !important; }
+.ssmw-simple .ssmw-yelp:hover { color: #af0606 !important; }
+
+
+.ssmw-boxed-facebook:hover { background: #3b5998; }
+.ssmw-boxed-twitter:hover { background: #55acee; }
+.ssmw-boxed-youtube:hover { background: #cd201f; }
+.ssmw-boxed-instagram:hover { background: #405de6; }
+.ssmw-boxed-google_plus:hover { background: #dc4e41; }
+.ssmw-boxed-vimeo:hover { background: #1ab7ea; }
+.ssmw-boxed-pinterest:hover { background: #bd081c; }
+.ssmw-boxed-linkedin:hover { background: #0077b5; }
+.ssmw-boxed-flickr:hover { background: #0063dc; }
+.ssmw-boxed-weibo:hover { background: #DF2029; }
+.ssmw-boxed-vkontakte:hover { background: #45668e; }
+.ssmw-boxed-github:hover { background: #4183c4; }
+.ssmw-boxed-behance:hover { background: #1769ff; }
+.ssmw-boxed-dribbble:hover { background: #ea4c89; }
+.ssmw-boxed-tumblr:hover { background: #35465c; }
+.ssmw-boxed-vine:hover { background: #00b488; }
+.ssmw-boxed-twitch:hover { background: #6441a5; }
+.ssmw-boxed-spotify:hover { background: #2ebd59; }
+.ssmw-boxed-medium:hover { background: #00ab6b; }
+.ssmw-boxed-stack_overflow:hover { background: #fe7a15; }
+.ssmw-boxed-soundcloud:hover { background: #ff8800; }
+.ssmw-boxed-500px:hover { background: #0099e5; }
+.ssmw-boxed-deviantart:hover { background: #05cc47; }
+.ssmw-boxed-paypal:hover { background: #003087; }
+.ssmw-boxed-reddit:hover { background: #ff4500; }
+.ssmw-boxed-skype:hover { background: #00aff0; }
+.ssmw-boxed-snapchat:hover { background: #fffc00; }
+.ssmw-boxed-stack_exchange:hover { background: #2f96e8; }
+.ssmw-boxed-xing:hover { background: #026466; }
+.ssmw-boxed-codepen:hover { background: #777; }
+.ssmw-boxed-foursquare:hover { background: #f94877; }
+.ssmw-boxed-jsfiddle:hover { background: #1f91f3; }
+.ssmw-boxed-odnoklassniki:hover { background: #ed812b; }
+.ssmw-boxed-tripadvisor:hover { background: #589442; }
+.ssmw-boxed-viadeo:hover { background: #f07355; }
+.ssmw-boxed-amazon:hover { background: #ff9900; }
+.ssmw-boxed-steam:hover { background: #777; }
+.ssmw-boxed-whatsapp:hover { background: #43d854; }
+.ssmw-boxed-gitlab:hover { background: #fca326; }
+.ssmw-boxed-yelp:hover { background: #af0606; }
+
+
+.ssmw-width-100 { width: 100%; }
+.ssmw-width-50 { width: 50%; }
+.ssmw-width-33 { width:  33.33333%; }
+.ssmw-width-25 { width: 24%; }
+.ssmw-width-20 { width: 20%; }
+.ssmw-width-16 { width: 16.66666%; }
+.ssmw-width-14 { width: 14.28571%; }
+.ssmw-width-12 { width: 12.5%; }
+.ssmw-width-11 { width: 11.11111%; }
+.ssmw-width-10 { width: 10%; }
+.ssmw-width-9 { width: 9.09090%; }
+.ssmw-width-8 { width: 8.33333%; }
+.ssmw-width-7 { width: 7.69230%; }
+.ssmw-width-custom { width: 50px; }
